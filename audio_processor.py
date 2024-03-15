@@ -19,6 +19,7 @@ class AudioProcessor:
     def add(self, other_audio):
         self.audio = self.audio.add(other_audio)
 
+
 # 示例用法
 if __name__ == "__main__":
     # 创建 AudioProcessor 实例
