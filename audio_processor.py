@@ -1,5 +1,6 @@
 from pydub import AudioSegment
 
+
 class AudioProcessor:
     def __init__(self, file_path):
         self.audio = AudioSegment.from_file(file_path)
